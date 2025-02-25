@@ -4,7 +4,6 @@ body{
     color: azure;
     max-width: 100vw;
     height: 100%;
-    overflow: hidden;
 }
 hr{
     width: 150px;
