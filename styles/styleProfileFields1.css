@@ -1,1 +1,157 @@
+.profile-fields{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+    .pf-center{
+        gap: 10px;
+        /* display: flex; */
+        /* display: 4px; */
+        justify-content: center;
+        justify-items: center;
+        transition: 4s;
+        transition-duration: 2s;
+        width: 700px;
 
+        max-width: 95%;
+
+    }
+        
+        .info-container{
+            color: black;
+            /* height: 65px; */
+            width: 90%;
+            max-width: 90%;
+            /* max-width: ; */
+            justify-content: center;
+        }
+            
+            .info-container:hover .specifications-article{
+                font-size: 1em;
+                opacity: 1;
+                z-index: 1000;
+                transition: font-size 0s, opacity 2s ;
+                transition-delay: font-size 1.5s;
+            
+            }
+            .info-container:hover .career-article{
+                font-size: 1em;
+                opacity: 1;
+                z-index: 1000;
+                transition: font-size 0s, opacity 2s ;
+                transition-delay: font-size 1.5s;
+            
+            }
+            .info-container:hover .cards{
+                border-radius: 30px;
+                background-color: rgb(146, 147, 148);
+                background-color: rgba(137, 43, 226, 0.552);
+                /* justify-self: center; */
+                /* height: 350px;
+                width: 300px; */
+                height: 450px;
+                /* height: 700px; */
+                width: 425px;
+                /* width: 50%; */
+                /* justify-self: center; */
+                /* transition: justify-content 4s ; */
+                /* transition: 0.6s ease; */
+                /* transition-timing-function:ease-in; */
+            }
+            /* .education-card{
+                justify-self:right;
+            } */
+                .education-article{
+                    opacity: 0;
+                    text-align: center;
+                    height: 0px;
+                    font-size: 0em;
+                }
+                .info-container:hover .education-article{
+                    font-size: 1em;
+                    opacity: 1;
+                    z-index: 1000;
+                    transition: font-size 0s, opacity 2s ;
+                    transition-delay: font-size 1.5s;
+                
+                }
+            /* .education-article:hover{
+                    opacity: 1;
+                    z-index: 1000;
+                } */
+            /* .specifications-card{
+                justify-self:left;
+            } */
+                .specifications-article{
+                    opacity: 0;
+                    text-align: center;
+                    height: 0px;
+                    font-size: 0em;
+                }
+            /* .career-card{
+                justify-self:left;
+            }    */
+                .career-article{
+                    opacity: 0;
+                    text-align: center;
+                    height: 0px;
+                    font-size: 0em;
+                }
+            .cards{
+                /* justify-self:right; */
+                border-radius: 15px;
+                background-color: rgb(78, 79, 80);
+                background-color: blueviolet;
+                height: 65px;
+                width: 240px;
+                /* justify-self: unset; */
+                transition: background-color 0.7s, height 0.8s, width 0.8s, border-radius 0.8s ;
+            }
+            .cards-left{
+                justify-self: left;
+            }
+            .cards-right{
+                justify-self: right;
+            }
+            
+                
+                .content-headings{
+                    margin-top: 2px;
+                    padding-top: 15px;
+                    border-radius: 15px;
+                    /* justify-content: center; */
+                    background-color: blueviolet;
+                    text-align: center;
+                    color: aqua;
+                    font-size:x-large;
+                }
+                
+                
+
+                
+
+
+.flx{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* .cards:hover .education-article{
+    opacity: 1;
+    z-index: 1000;
+} */
+
+/* .education-card{
+    justify-self:right;
+    background-color: blueviolet;
+}
+.specifications-card{
+    justify-self:left;
+    background-color: blueviolet;
+}
+.career-card{
+    justify-self:left;
+    background-color: blueviolet;
+} */

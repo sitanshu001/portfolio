@@ -42,17 +42,17 @@
         <hr class="hrfull">
         <div class="catagory-div">
             <ul>
-                <li class="cat"><a href="#specifications-card">Specifications</a></li>
-                <li class="cat"><a href="#project-card">Projects</a></li>
-                <li class="cat"><a href="#career-card">Career</a></li>
-                <li class="cat"><a href="#education-card">Education</a></li>
+                <li class="cat" onclick="spftgg()"><a href="#specifications-card"></a>Specifications</li>
+                <li class="cat" onclick="prjtgg()"><a href="#project-card"></a>Projects</li>
+                <li class="cat" onclick="crrtgg()"><a href="#career-card"></a>Career</li>
+                <li class="cat" onclick="edutgg()"><a href="#education-card"></a>Education</li>
             </ul>
         </div>
 
         <div class="profile-fields">
 
             <div class="pf-center">
-                <div class="info-container">
+                <div class="info-container" id="edu">
 
                     <div class="education-card cards cards-left" id="education-card"><div class="content-headings">| Education |</div>
                         <div class="education-article article">
@@ -99,7 +99,7 @@
                                     <div class="etype1">
                                         <div class="etype1-heading">Data Science AI ML</div>
                                         <div>
-                                        
+                                            Naresh iT
                                         </div>
                                     </div>
                                     <br>
@@ -117,7 +117,7 @@
 
                 </div>
                 <br>
-                <div class="info-container">
+                <div class="info-container" id="spf">
                     <div class="specifications-card cards cards-right" id="specifications-card"><div class="content-headings">Specializations:</div>
                         <div class="specifications-article article">
                             <div class="specifications-type type"><div class="heading-specifications-type">Data Scientist</div><hr>
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="info-container">
+                <div class="info-container" id="crr">
                     <div class="career-card cards cards-left" id="career-card"><div class="content-headings">Career:</div>
                         <div class="career-article article">
                             <div class="career-type type">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="info-container">
+                <div class="info-container" id="prj">
                     <div class="project-card cards cards-right" id="project-card"><div class="content-headings">Projects:</div>
                         <div class="project-article article">
                             
@@ -171,11 +171,13 @@
     </script>
 </body>
 <footer class="footer">
-    <div>
-        site developer: Sitanshu(Self)
-        <p>
+    <div class="footer-container">
+        <div>
+            site developer: Sitanshu(Self)
+        </div>
+        <div>
             Do not use my code. Contents are Original.
-        </p>
+        </div>
     </div>
 </footer>
 </html>
