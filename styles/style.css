@@ -77,7 +77,8 @@ hr{
 
     .intro-div{
         display: flex;
-        height: auto;
+        /* height: 400px; */
+        /* height: 360px; */
         /* width: 90%; */
         gap: 3px;
         justify-content: space-evenly;
@@ -167,6 +168,7 @@ hr{
             -webkit-user-select: none; /* Safari /
             -ms-user-select: none; / IE 10 and IE 11 /
             user-select: none; / Standard syntax */
+            font-size: 0.8rem;
         }
         .catagory-div ul {
             list-style: none;
@@ -228,24 +230,45 @@ hr{
     .contact-form-div{
         display: flex;
         justify-content: center;
+        width: 100%;
     }
         .contact-form{
-            display: flex;
+            display: block;
             /* display: block; */
             justify-content: center;
             align-items: center;
-            border-radius: 15px;
+            border-radius: 10%;
             border-style: solid ;
-            width: 340px;
+            border-color: aqua;
+            border-color: rgb(221, 184, 255);
+            width: 310px;
             height: 400px;
+            max-height: 350px;
+            max-width: 700px;
             background-color: #ffffff12;
-            background-image:linear-gradient(rgba(61, 222, 25, 0),rgba(255, 255, 255, 0.318));
+            background-image:linear-gradient(rgba(61, 222, 25, 0),rgba(255, 255, 255, 0.179));
+            background-image:linear-gradient(rgba(60, 0, 110, 0.311),rgba(157, 120, 172, 0.525));
+
+            box-shadow: 0px 0px 15px blueviolet;
 
         }
+            .contact-head{
+                width:fit-content;
+                justify-self: center;
+                text-align:justify;
+                /* padding: 10px; */
+                /* background-color: #fff; */
+            }
             .actual-form{
-                justify-content: center;
+                padding: 45px;
+                /* fix this padding one  */
+
+                /* margin: 10px; */
+                /* justify-content: center; */
+                justify-self: center;
                 /* background-color: aqua; */
-                width: 300px;
+                text-align: center;
+                /* width: 300px; */
                 height: 250px;
                 display: inline-block;
             }
@@ -253,28 +276,36 @@ hr{
                     font-size: 1.5rem;
                 }
                 .asdf{
-
+                    justify-content:center;
                 }
                     .message-data-inputs-div{
                         min-height: 25px;
-                        margin: 2px;
+                        /* margin: 2px; */
                         display: flex;
-                        justify-self: space-between;
+                        justify-content: space-between;
+                        text-align: justify;
                         border-radius: 5px;
+                        width:100%;
                         /* background-color: rgba(255, 255, 255, 0.221); */
 
                     }
-                    .message-data-inputs-div input{
+                    .contact-label{
+                        justify-self: flex-start;
+                    }
+                    .contact-inputs{
                         /* background-color: transparent; */
-                        justify-self: end;
+                        justify-self: flex-end;
                         border: none;
                         outline: none;
                         background: rgba(245, 245, 245, 0.19);
                         /* background-image: none; */
 
                     }
+                    .contact-inputs::placeholder{
+                        color: rgb(175, 175, 175);
+                    }
                     .message-data-inputs-div input:hover{
-                        background: rgba(245, 245, 245, 0.886);
+                        background: rgb(238, 215, 255);
 
                     }
                     .txtarea{
@@ -287,6 +318,20 @@ hr{
                     }
                     .txtarea:hover{
                         background-color: rgba(245, 245, 245, 0.886);
+                        background: rgb(238, 215, 255);
+
+
+                    }
+                    .contact-input-send{
+                        color: white;
+                        width: 100px;
+                        height: 40px;
+                        /* background-image: linear-gradient(rgba(0, 0, 255, 0.112),blueviolet); */
+                        background-color:rgb(153, 57, 255);
+                        /* border: none; */
+                        border-color: rgb(230, 195, 255);
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 10px rgba(43, 2, 74, 0.79);
 
                     }
 

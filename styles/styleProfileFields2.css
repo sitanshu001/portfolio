@@ -44,7 +44,7 @@
             /* transition-timing-function:ease-in; */
         }
             .cards{
-                padding: 10px;
+                /* padding: 10px; */
                 /* justify-self:right; */
                 border-radius: 15px;
                 background-color: rgba(78, 79, 80, 0.193);
@@ -58,12 +58,15 @@
                 background-image: -webkit-linear-gradient(blueviolet,rgb(0, 219, 33));
                 background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.205));
                 height: 550px;
+                height: 500px;
+                min-height: 100px;
                 /* max-height: 400px; */
                 /* height: 700px; */
                 /* width: 425px; */
                 width: 90%;
                 max-width: 97%;
                 max-width: 1000px;
+                max-width: 600px;
                 padding: 20px;
                 /* height: min-content; */
                 /* box-shadow: 5px 5px 5px rgba(238, 71, 71, 0.499); */
@@ -138,7 +141,6 @@
     opacity: 1;
     z-index: 1000;
 } */
-
 
 
 /* .info-container:hover .education-article{
