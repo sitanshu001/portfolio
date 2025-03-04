@@ -31,6 +31,7 @@
             /* max-width: ; */
             justify-content: center;
             box-sizing: border-box;
+            padding: 0px;
 
         }
         
@@ -46,17 +47,18 @@
             .cards{
                 /* padding: 10px; */
                 /* justify-self:right; */
-                border-radius: 15px;
+                /* border-radius: 15px; */
                 background-color: rgba(78, 79, 80, 0.193);
                 /* background-color: rgba(255, 255, 255, 0.101); */
                 width: 240px;
                 justify-self: center;
-                border-radius: 30px;
+                /* border-radius: 30px; */
                 /* background-color: rgb(146, 147, 148); */
                 /* background-color: rgba(137, 43, 226, 0.552); */
                 background-image: -webkit-linear-gradient(blueviolet,rgb(170, 0, 255));
                 background-image: -webkit-linear-gradient(blueviolet,rgb(0, 219, 33));
                 background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.205));
+                /* background-image: -webkit-linear-gradient(#ffffff09,rgba(255, 255, 255, 0.205)); */
                 height: 550px;
                 height: 500px;
                 min-height: 100px;
@@ -67,7 +69,10 @@
                 max-width: 97%;
                 max-width: 1000px;
                 max-width: 600px;
+                max-width: 100%;
                 padding: 20px;
+                /* padding-left: 0px;
+                padding-right: 0px; */
                 /* height: min-content; */
                 /* box-shadow: 5px 5px 5px rgba(238, 71, 71, 0.499); */
 
