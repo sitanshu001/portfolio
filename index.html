@@ -18,9 +18,9 @@
             </div>
             <div class="contact-container">
                 <div class="flx">
-                    <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Symbol-LinkedIn-500x500.webp" alt="LinkedIn"></a>
+                    <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
                     <a href="https://github.com/sitanshu001"><img src="images\github-icon-512x497-oppthre2.webp" alt="GitHub"></a>
-                    <a href="mailto:sitanshu.2k2d@gmail.com"><img src="images\gmail-logo.webp" alt="eMail"></a>
+                    <a href="mailto:sitanshu.2k2d@gmail.com"><img src="images\gmail-white-icon.webp" alt="eMail"></a>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                 <article class="about-para">
                     <div class="gg">
                         <span class="medium highlight text">
-                            Hi I am Sitanshu, and this portfolio is under development and testing phases. See you soon!
+                            HI I am Sitanshu, and this portfolio is under development and testing phases. See you soon!
                         </span>
                     </div>
                 </article>
@@ -175,7 +175,7 @@
             <div class="contact-form">
                 
                 <br><br>
-                <form style="justify-content:center"  >
+                <form style="justify-content:center" action="sendmail.php" method="POST">
                     <div class="contact-head">
                         <span class="text-size2rem">Hey,</span>
                         <div class="message-head">you can drop me a message</div>
@@ -188,8 +188,8 @@
                         </div>
                         <br>
                         <div class="message-data-inputs-div">
-                            <label for="lname">Mail*</label><br>
-                            <input class="contact-inputs" type="mail" id="lname" name="lname" autocomplete="off" placeholder="example@mail.com">
+                            <label for="email">Mail*</label><br>
+                            <input class="contact-inputs" type="mail" id="email" name="email" autocomplete="off" placeholder="example@mail.com">
                         </div>
                         <br>
                         <div class="message-data-inputs-div">
@@ -197,7 +197,9 @@
                             <textarea class="txtarea contact-inputs" id="msg" name="msg" placeholder="leave a message here"></textarea>
                         </div>
                         <br>
-                        <div ><input class="contact-input-send" type="submit" id="sbt" value="Send"></div>
+                        <div >
+                            <button type="submit">Send</button>
+                            <!-- <input class="contact-input-send" type="submit" id="sbt" value="Send"></div> -->
                     </div>
 
                 </form>

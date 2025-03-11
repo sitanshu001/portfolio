@@ -177,6 +177,11 @@ hr{
             /* justify-self: center; */
             /* max-width: 100%; */
         }
+        @media screen and (max-width: 600px) {
+            .ptrt{
+                display: none;
+            }
+        }
     /* ^^-------------------------------- Intro Div */
 
 
@@ -193,7 +198,7 @@ hr{
             -webkit-user-select: none; /* Safari /
             -ms-user-select: none; / IE 10 and IE 11 /
             user-select: none; / Standard syntax */
-            font-size: 0.8rem;
+            font-size: 0.85rem;
         }
         .catagory-div ul {
             list-style: none;
@@ -246,8 +251,8 @@ hr{
 
             }
         .cat-sep{
-            border-left: 5px solid;
-            height: 5px;
+            border-left: 3px solid;
+            height: 3px;
             align-self: center;
 
         }
@@ -348,7 +353,6 @@ hr{
                     .txtarea:hover{
                         background-color: rgba(245, 245, 245, 0.886);
                         background: rgb(238, 215, 255);
-
 
                     }
                     .contact-input-send{
