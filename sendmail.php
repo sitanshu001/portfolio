@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = isset($_POST['msg']) ? $_POST['msg'] : '';
     
     // Set the recipient email address
-    $to = "iwguwu16@gmail.com";  // Replace with your email address
+    $to = "sitanshu.2k2d@gmail.com";  // Replace with your email address
     $subject = "New Message from Your Website";
     
     // Create email headers
