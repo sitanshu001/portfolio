@@ -16,8 +16,8 @@
             <div class="my-company">
                 <a href=""><img src="images\sitelogo2.png" alt="Logo"></a>
             </div>
-            <div class="socials-container">
-                <div class="socials flx-space-between">
+            <div class="contact-container">
+                <div class="flx">
                     <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
                     <a href="https://github.com/sitanshu001"><img src="images\github-icon-512x497-oppthre2.webp" alt="GitHub"></a>
                     <a href="mailto:sitanshu.2k2d@gmail.com"><img src="images\gmail-white-icon.webp" alt="eMail"></a>
@@ -25,26 +25,22 @@
             </div>
         </div>
         <div class="intro-div">
-            <div class="intro-div-container">
-                <div class="para">
-                    <article class="about-para">
-                        <div class="gg">
-                            <span class="medium highlight text">
-                                HI I am Sitanshu, and this portfolio is under development and testing phases. See you soon!
-                            </span>
-                        </div>
-                    </article>
-                </div>
-                <div class="ptrt">
-                    <img src="images\profilepic-aig.png" alt="pfp image">
-                    <div class="name">Sitanshu</div>
-                </div>
-                <!-- <br> -->
+            <div class="para">
+                <article class="about-para">
+                    <div class="gg">
+                        <span class="medium highlight text">
+                            HI I am Sitanshu, and this portfolio is under development and testing phases. See you soon!
+                        </span>
+                    </div>
+                </article>
             </div>
-            <hr class="hrfull">
-
+            <div class="ptrt">
+                <img src="images\profilepic-aig.png" alt="pfp image">
+                <div class="name">Sitanshu</div>
+            </div>
         </div>
-        
+        <br>
+        <hr class="hrfull">
         <div class="catagory-div" id="catagory-div">
             <ul>
                 <!-- <li class="cat" onclick="spftgg()"><a href="#specifications-card"></a>Specifications</li><div class="cat-sep"></div>
@@ -128,15 +124,15 @@
                 <div class="info-container" id="spf">
                     <div class="specifications-card cards cards-right" id="specifications-card"><div class="content-headings">Specializations:</div>
                         <div class="specifications-article article">
-                            <div class="specifications-type type"><div class="heading-specifications-type">Data Scientist</div>
-                                <!-- <div class="specifications-type-contents">
-                                    <hr>
-                                </div> -->
+                            <div class="specifications-type type"><div class="heading-specifications-type">Data Scientist</div><hr>
+                                <div class="specifications-type-contents">
+                                    
+                                </div>
                             </div><br>
-                            <div class="heading-specifications-type type"><div class="">Web Developer</div>
-                                <!-- <div class="specifications-type-contents">
-                                    <hr>
-                                </div> -->
+                            <div class="heading-specifications-type type"><div class="">Web Developer</div><hr>
+                                <div class="specifications-type-contents">
+                                    
+                                </div>
                             </div>
                         </div>
                         
@@ -173,40 +169,28 @@
         </div>
         <div>
         </div>
-        <!-- <br> -->
+        <br><br>
         <div class="contact-form-div">
-            <div class="other-contacts-container">
-                <div class="other-contacts">
-                    <!-- <div>links</div> -->
-                    <div class="socials-container">
-                        <div class="socials flx-space-between">
-                            <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
-                            <a href="https://github.com/sitanshu001"><img src="images\github-icon-512x497-oppthre2.webp" alt="GitHub"></a>
-                            <a href="mailto:sitanshu.2k2d@gmail.com"><img src="images\gmail-white-icon.webp" alt="eMail"></a>
-                        </div>
-                        <!-- <div style="background-color: aliceblue;"> hi</div> -->
-
-                    </div>
+           <div class="contact-container">
+                <div class="flx">
+                    <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/sitanshu001"><img src="images\github-icon-512x497-oppthre2.webp" alt="GitHub"></a>
+                    <a href="mailto:sitanshu.2k2d@gmail.com"><img src="images\gmail-white-icon.webp" alt="eMail"></a>
                 </div>
-                <!-- <div class="blank-div" style="height: 30px;"></div> -->
             </div>
-            <div class="contact-form-container">
-                <div class="contact-head">
-                    <span class="text-size2rem">Hey,</span>
-                    <div class="message-head">you can drop me a message*</div>
-                    <div style="height: 3px;"></div>
-                    <div style="font-size: 0.6rem;">(*this portion is not active yet but you can mail me using my mail address)</div>
-                </div>
-                <!-- <br> -->
-                <form class="contact-form-tag" action="sendmail.php" method="POST">
+            <div class="contact-form">
+                
+                <br><br>
+                <form style="justify-content:center" action="sendmail.php" method="POST">
+                    <div class="contact-head">
+                        <span class="text-size2rem">Hey,</span>
+                        <div class="message-head">you can drop me a message</div>
+                        <div style="font-size: 0.7rem;">(this portion is not active yet)</div>
+                    </div>
                     <div class="actual-form">
                         <div class="message-data-inputs-div">
-                            <div>
-                                <label class="contact-label" for="fname">Name</label><br>
-                            </div>
-                            <div>
-                                <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
-                            </div>
+                            <label class="contact-label" for="fname">Name</label><br>
+                            <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
                         </div>
                         <br>
                         <div class="message-data-inputs-div">
@@ -219,21 +203,15 @@
                             <textarea class="txtarea contact-inputs" id="msg" name="msg" placeholder="leave a message here"></textarea>
                         </div>
                         <br>
-                        <div class="form-btn" >
+                        <div >
                             <button type="submit">Send</button>
-                            <!-- <input class="contact-input-send" type="submit" id="sbt" value="Send">-->
-                        </div>
-                        
+                            <!-- <input class="contact-input-send" type="submit" id="sbt" value="Send"></div> -->
                     </div>
-                    
+
                 </form>
-                <div >
-                    <button type="submit">Send</button>
-                    <!-- <input class="contact-input-send" type="submit" id="sbt" value="Send">-->
-                </div>
             </div>
         </div>
-        
+        <br>
     </div>
     <script src="scripts/script.js">
     </script>
@@ -247,7 +225,7 @@
             Kindly don't use my code. Contents are Original. Do get some inspirations though and make your own codes!!
         </div>
         <br>
-        <div class="cpr">© 2025 <a href="">Sitanshu</a></div>
+        <div>© 2025 <a href="">Sitanshu</a></div>
     </div>
 </footer>
 </html>
