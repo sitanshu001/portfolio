@@ -101,7 +101,7 @@
                                 </div>
                             </div>
                             <br>
-                            <div class="education-type type">
+                            <!-- <div class="education-type type">
                                 <div class="heading-education-type"> Other Cirtifications</div>
                                 <hr>
                                 <div class="education-type-contents">
@@ -114,12 +114,12 @@
                                     <br>
                                     <div class="etype1">
                                         <div class="etype1-heading">Web Developing(HTML,CSS)</div>
-                                        <!-- <div>
+                                        <!-.- <div>
                                             xyz institute
-                                        </div> -->
+                                        </div> -.->
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
     
                         </div>
                     </div>
@@ -171,14 +171,21 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div style="height: 20px; width: 100%">
         </div>
         <!-- <br> -->
         <div class="contact-form-div">
             <div class="other-contacts-container">
                 <div class="other-contacts">
-                    <!-- <div>links</div> -->
+                    
+                    <div style="display: flex;">
+                        <div style="width: 10px;"></div>
+                        <div class="other-contacts-head">Socials:</div>
+                    </div>
+                    <div style="height: 5px;"></div>
                     <div class="socials-container">
+                        <!-- <div class="other-contacts-headposition">links</div> -->
+                        <div style="width: 30px;"></div>
                         <div class="socials flx-space-between">
                             <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
                             <a href="https://github.com/sitanshu001"><img src="images\github-icon-512x497-oppthre2.webp" alt="GitHub"></a>
@@ -195,40 +202,42 @@
                     <span class="text-size2rem">Hey,</span>
                     <div class="message-head">you can drop me a message*</div>
                     <div style="height: 3px;"></div>
-                    <div style="font-size: 0.6rem;">(*this portion is not active yet but you can mail me using my mail address)</div>
+                    <div style="font-size: 0.7em;">(*this portion is not active yet but you can mail me using my mail address)</div>
                 </div>
                 <!-- <br> -->
-                <form class="contact-form-tag" action="sendmail.php" method="POST">
-                    <div class="actual-form">
-                        <div class="message-data-inputs-div">
-                            <div>
-                                <label class="contact-label" for="fname">Name</label><br>
+                 <div>
+                    <form class="contact-form-tag" action="sendmail.php" method="POST">
+                        <div class="actual-form">
+                            <div class="message-data-inputs-div">
+                                <div>
+                                    <label class="contact-label" for="fname">Name</label><br>
+                                </div>
+                                <div>
+                                    <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
+                                </div>
                             </div>
-                            <div>
-                                <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
+                            <br>
+                            <div class="message-data-inputs-div">
+                                <label for="email">Mail*</label><br>
+                                <input class="contact-inputs" type="mail" id="email" name="email" autocomplete="off" placeholder="example@mail.com">
                             </div>
-                        </div>
-                        <br>
-                        <div class="message-data-inputs-div">
-                            <label for="email">Mail*</label><br>
-                            <input class="contact-inputs" type="mail" id="email" name="email" autocomplete="off" placeholder="example@mail.com">
-                        </div>
-                        <br>
-                        <div class="message-data-inputs-div">
-                            <label for="msg">Message</label><br>
-                            <textarea class="txtarea contact-inputs" id="msg" name="msg" placeholder="leave a message here"></textarea>
-                        </div>
-                        <br>
-                        <div class="form-btn" >
-                            <button type="submit">Send</button>
-                            <!-- <input class="contact-input-send" type="submit" id="sbt" value="Send">-->
+                            <br>
+                            <div class="message-data-inputs-div">
+                                <label for="msg">Message</label><br>
+                                <textarea class="txtarea contact-inputs" id="msg" name="msg" placeholder="leave a message here"></textarea>
+                            </div>
+                            <br>
+                            <div class="form-btn" >
+                                <button type="submit">Send</button>
+                                <!-- <input class="contact-input-send" type="submit" id="sbt" value="Send">-->
+                            </div>
+                            
                         </div>
                         
-                    </div>
-                    
-                </form>
+                    </form>
+                 </div>
                 <div >
-                    <button type="submit">Send</button>
+                    <!-- <button type="submit">Send</button> -->
                     <!-- <input class="contact-input-send" type="submit" id="sbt" value="Send">-->
                 </div>
             </div>
@@ -238,14 +247,15 @@
     <script src="scripts/script.js">
     </script>
 </body>
+<br>
 <footer class="footer">
     <div class="footer-container">
         <div>
             site developer: Sitanshu(Self)
         </div>
-        <div>
+        <!-- <div>
             Kindly don't use my code. Contents are Original. Do get some inspirations though and make your own codes!!
-        </div>
+        </div> -->
         <br>
         <div class="cpr">© 2025 <a href="">Sitanshu</a></div>
     </div>
