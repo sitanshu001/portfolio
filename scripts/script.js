@@ -27,7 +27,9 @@ e.style.display = "none"
 s.style.display = "none"
 c.style.display = "none"
 p.style.display = "none"
-
+// function changeColor(color){
+//     p.style.background=color;
+// }
 function edutgg() {
     s.style.display = "none"
     c.style.display = "none"
@@ -70,6 +72,8 @@ function prjtgg() {
 
     if(p.style.display === "none"){
         p.style.display = "block";
+        changeColor('yellow');
+
         
     }
     else if (p.style.display === "block"){
@@ -96,6 +100,20 @@ function crrtgg() {
     else{
         
     }
+}
+var eee = document.getElementById("more-catogory-lists")
+eee.style.display = "none";
+function toggleMenu() {
+    // document.getElementById("more-catogory").classList.toggle("active");
+    if (eee.style.display ==="none"){
+        eee.style.display ="block";
+    }
+    else{
+        eee.style.display = "none";
+    }
+    // if (document.getElementById("more-catogory-lists").style.display === "block"){
+    //     document.getElementById("more-catogory-lists").style.display = "none";
+    // }
 }
     // } else {
         // bdy.style.display = "block";
