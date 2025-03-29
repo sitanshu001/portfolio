@@ -44,18 +44,31 @@
             <hr class="hrfull">
 
         </div>
-        
-        <div class="catagory-div" id="catagory-div">
-            <ul>
-                <!-- <li class="cat" onclick="spftgg()"><a href="#specifications-card"></a>Specifications</li><div class="cat-sep"></div>
-                <li class="cat" onclick="prjtgg()"><a href="#project-card"></a>Projects</li><div class="cat-sep"></div>
-                <li class="cat" onclick="crrtgg()"><a href="#career-card"></a>Career</li><div class="cat-sep"></div>
-                <li class="cat" onclick="edutgg()"><a href="#education-card"></a>Education</li> -->
-                <li class="cat" onclick="spftgg()"><a href="#catagory-div">Specifications</a></li><div class="cat-sep"></div>
-                <li class="cat" onclick="prjtgg()"><a href="#catagory-div">Projects</a></li><div class="cat-sep"></div>
-                <li class="cat" onclick="crrtgg()"><a href="#catagory-div">Career</a></li><div class="cat-sep"></div>
-                <li class="cat" onclick="edutgg()"><a href="#catagory-div">Education</a></li>
-            </ul>
+        <div class="catagory-div-container">
+            <div class="catagory-div" id="catagory-div">
+                <ul>
+                    <!-- <li class="cat" onclick="spftgg()"><a href="#specifications-card"></a>Specifications</li><div class="cat-sep"></div>
+                    <li class="cat" onclick="prjtgg()"><a href="#project-card"></a>Projects</li><div class="cat-sep"></div>
+                    <li class="cat" onclick="crrtgg()"><a href="#career-card"></a>Career</li><div class="cat-sep"></div>
+                    <li class="cat" onclick="edutgg()"><a href="#education-card"></a>Education</li> -->
+                    <li class="cat" onclick="spftgg()"><a href="#catagory-div">Specifications</a></li><div class="cat-sep"></div>
+                    <li class="cat" onclick="prjtgg()"><a href="#catagory-div">Projects</a></li><div class="cat-sep"></div>
+                    <li class="cat" onclick="crrtgg()"><a href="#catagory-div">Career</a></li>
+                </ul>
+            </div>
+            
+            <div class="more-catogory-container">
+                <div class="more-catogory" id="more-catogory">
+                    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+                    <!-- <button class="close-btn" onclick="toggleMenu()">✖</button> -->
+                    <ul class="more-catogory-lists" id="more-catogory-lists">
+                        <li class="cat" onclick="edutgg()"><a href="#catagory-div">Education</a></li>
+                        <!-- <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li> -->
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="profile-fields">
@@ -171,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <div style="height: 20px; width: 100%">
+        <div class="space-above-contact-form-div">
         </div>
         <!-- <br> -->
         <div class="contact-form-div">
@@ -205,21 +218,24 @@
                     <div style="font-size: 0.7em;">(*this portion is not active yet but you can mail me using my mail address)</div>
                 </div>
                 <!-- <br> -->
-                 <div>
+                 <div class="actual-form-container">
                     <form class="contact-form-tag" action="sendmail.php" method="POST">
                         <div class="actual-form">
                             <div class="message-data-inputs-div">
-                                <div>
+                                <label class="contact-label" for="fname">Name</label><br>
+                                <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
+
+                                <!-- <div>
                                     <label class="contact-label" for="fname">Name</label><br>
                                 </div>
                                 <div>
                                     <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
-                                </div>
+                                </div> -->
                             </div>
                             <br>
                             <div class="message-data-inputs-div">
                                 <label for="email">Mail*</label><br>
-                                <input class="contact-inputs" type="mail" id="email" name="email" autocomplete="off" placeholder="example@mail.com">
+                                <input class="txtarea contact-inputs" type="mail" id="email" name="email" autocomplete="off" placeholder="example@mail.com">
                             </div>
                             <br>
                             <div class="message-data-inputs-div">
