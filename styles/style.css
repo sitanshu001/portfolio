@@ -229,7 +229,7 @@ hr{
             -webkit-user-select: none; /* Safari /
             -ms-user-select: none; / IE 10 and IE 11 /
             user-select: none; / Standard syntax */
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
         .catagory-div ul {
             list-style: none;
