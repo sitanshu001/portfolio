@@ -237,7 +237,7 @@ hr{
             display: flex;
             max-width: 95%;
             height: 100%;
-            gap: 10px;
+/*             gap: 5px; */
         }
         .catagory-div ul li {
             display: flex;
