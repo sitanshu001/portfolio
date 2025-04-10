@@ -221,6 +221,7 @@ hr{
         justify-self: center; */
         /* height: 100px; */
         /* margin: 0 auto; */
+        max-width:85%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -288,6 +289,7 @@ hr{
             /* display: flex; */
             height: fit-content;
             width: fit-content;
+            max-width:15%;
             margin-left: auto;
             align-items: center;
             justify-items: center;
