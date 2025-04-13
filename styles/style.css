@@ -388,11 +388,17 @@ hr{
         }@media (max-width: 768px) {
             .space-above-contact-form-div{
                 height: 0px;
-                width: 100%
+                width: 100%;
+
             }
             /* .contact-form-container{
                 display: none;
             } */
+        }
+        @media (min-width: 768px) {
+            .contact-form-div{
+                display: flex;
+            }
         }
         .contact-form-container{
             /* padding: 10px; */
@@ -541,8 +547,15 @@ hr{
 
                     }
                     .form-btn{
-                        background: none;
+                        /* background: none; */
                     }
+                        .form-btn button{
+                            background-color: rgba(255, 255, 255, 0.271);
+                            width: 60%;
+                            height: 30px;
+                            color: white;
+                        }
+                        
 
 /* ^^------------------------------------ Body */
 
@@ -619,10 +632,15 @@ hr{
     padding: 15px;
     text-align: center;
     /* z-index: 1000px; */
-
 }
 .menu-content{
     position:absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #333;
+    z-index: 0;
+    width: 200px;
+
 }
 .type a{
     color: white;
@@ -637,12 +655,17 @@ hr{
 .more-catogory ul li:hover {
     background: #575757;
 }
-
+.close{
+    display: flex;
+    justify-content:end ;
+    height: 50px;
+}
 /* Close Button */
 .close-btn {
     /* position: absolute;
     top: 10px;
     right: 15px; */
+    /* justify-self: end; */
     background: none;
     border: none;
     color: white;
@@ -657,12 +680,14 @@ hr{
     left: 15px; */
     width: 50px;
     background: #333;
+    background: transparent;
     color: white;
     border: none;
     padding: 10px 15px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
+    z-index: 1;
 }
 
 .menu-btn:hover {
