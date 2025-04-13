@@ -26,7 +26,7 @@ var bdy = document.getElementById("bdy");
 e.style.display = "none"
 s.style.display = "none"
 c.style.display = "none"
-p.style.display = "none"
+p.style.display = "block"
 // function changeColor(color){
 //     p.style.background=color;
 // }
