@@ -111,13 +111,17 @@ hr{
         /* height: 400px; */
         /* height: 360px; */
         /* width: 90%; */
+        /* display: flex; */
         width: 100%;
         height: auto;
     }   .intro-div-container{
+            height: 100%;
+            /* background-color: aqua; */
             display: flex;
             gap: 3px;
             justify-content: space-evenly;
             align-items: center;
+            align-self: center;
 
         }
         .para{
@@ -215,9 +219,7 @@ hr{
             /* max-width: 100%; */
         }
         @media screen and (max-width: 600px) {
-            .ptrt{
-                display: none;
-            }
+            
         }
     /* ^^-------------------------------- Intro Div */
 
@@ -324,45 +326,38 @@ hr{
         background-image: url("images/dvpbg.webp");
         /* background-color: #fff; */
     }
-    .contact-form-div{
+    .contacting-div{
+        /* margin: 2%; */
+        background-color: rgb(164, 174, 164);
+        background-color: rgb(124, 134, 124);
         display:flex;
         /* justify-content: ; */
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        margin-right: 2%;
-        margin-left: 2%;
+        /* margin-right: 2%;
+        margin-left: 2%; */
         /* width: 100%; */
-    }
-    @media (max-width: 100vw) {
-        /* .other-contacts{
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .contact-form-container{
-            margin-right: auto;
-            margin-left: auto;
-        } */
-        .other-contacts:last-child{
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .contact-form-container:last-child{
-            margin-right: auto;
-            margin-left: auto;
-        }
         
-    
     }
         .other-contacts-container{
-            width: 100vw;
-            max-width: 700px;
+            /* max-width: 768px; */
+            color: aqua;
+            /* background-color: aqua; */
+            /* max-width: 700px; */
+            /* width: 50vw; */
             height: 150px;
             justify-content: center;
             align-content: center;
             /* margin-right: auto;
             margin-left: auto; */
-
+        
+        
+        }
+    
+        .other-contacts-container{
+            
+    
         }
             .other-contacts{
                 justify-self: center;
@@ -374,46 +369,43 @@ hr{
                 max-width: 700px;
                 height: 150px;
                 justify-self: center; */
-                background-color: rgb(164, 174, 164);
+                /* background-color: rgb(164, 174, 164); */
                 /* background-color: rgb(179, 198, 209); */
-
+    
             }
             .other-contacts-head{
                 margin-top: 0%;
                 /* position:absolute; */
             }
-        .space-above-contact-form-div{
+        .space-above-contacting-div{
             height: 30px;
             width: 100%
-        }@media (max-width: 768px) {
-            .space-above-contact-form-div{
-                height: 0px;
-                width: 100%;
-
-            }
+        }
+        @media (max-width: 768px) {
+    
             /* .contact-form-container{
                 display: none;
             } */
         }
-        @media (min-width: 768px) {
+        /* @media (min-width: 768px) {
             .contact-form-div{
                 display: flex;
             }
-        }
+        } */
         .contact-form-container{
             /* padding: 10px; */
             /* display: block; */
             
             align-content: center;
             justify-self: center;
-            border-radius: 5rem;
+            border-radius: 3rem;
             border-style: solid ;
             border-color: aqua;
             border-color: rgb(221, 184, 255);
-
+    
             /* width: 3010px; */
-            height: 350px;
-            width: 350px;
+            height: 280px;
+            width: 250px;
             /* max-height: 350px; */
             /* max-width: 700px; */
             max-width: 80%;
@@ -421,18 +413,20 @@ hr{
             background-color: #ffffff12;
             background-image:linear-gradient(rgba(61, 222, 25, 0),rgba(255, 255, 255, 0.179));
             background-image:linear-gradient(rgba(60, 0, 110, 0.311),rgba(157, 120, 172, 0.525));
-
+    
             box-shadow: 0px 0px 15px blueviolet;
             font-size: 1rem;
-
+    
         }
             .contact-head{
                 padding:0px;
+                /* max-height: 30px; */
                 /* padding-right: 30px;
                 padding-left: 30px; */
-                padding-top: 50px;
-                margin-right: 20%;
-                margin-left: 20%;
+                /* padding-top: 50px; */
+                padding: 5%;
+                margin-right: 1%;
+                margin-left: 1%;
                 width:fit-content;
                 justify-self: center;
                 text-align:justify;
@@ -445,7 +439,7 @@ hr{
                 margin-left: 5px;
                 font-size: 1em;
                 justify-self: center;
-
+    
             }
             .contact-form-tag{
                 justify-content:center;
@@ -456,13 +450,13 @@ hr{
                 /* width: 90%; */
             }
             .actual-form{
-                padding:0px;
+                /* padding:0px; */
                 /* padding-right: 45px;
                 padding-left: 45px; */
-                padding-top: 20px;
+                padding-top: 10px;
                 /* width: 90%; */
                 /* fix this padding one  */
-
+                /* background-color: aqua; */
                 /* margin: 10px; */
                 /* justify-content: center; */
                 justify-self: center;
@@ -470,12 +464,12 @@ hr{
                 /* background-color: aqua; */
                 text-align: center;
                 /* width: 300px; */
-                height: 250px;
+                height: auto;
                 width: 100%;
                 display: inline-block;
-
+    
                 font-size: 1em;
-
+    
             }
                 /* .text-size2rem{
                     font-size: 1.5rem;
@@ -491,7 +485,7 @@ hr{
                         border-radius: 5px;
                         max-width: 50vh;
                         /* background-color: rgba(255, 255, 255, 0.221); */
-
+    
                     }
                     .contact-label{
                         justify-self: flex-start;
@@ -507,14 +501,14 @@ hr{
                         outline: none;
                         background: rgba(245, 245, 245, 0.19);
                         /* background-image: none; */
-
+    
                     }
                     .contact-inputs::placeholder{
                         color: rgb(175, 175, 175);
                     }
                     .message-data-inputs-div input:hover{
                         background: rgb(238, 215, 255);
-
+    
                     }
                     .txtarea{
                         justify-self: end;
@@ -522,12 +516,12 @@ hr{
                         outline: none;
                         background: rgba(245, 245, 245, 0.19);
                         /* background-image: none; */
-
+    
                     }
                     .txtarea:hover{
                         background-color: rgba(245, 245, 245, 0.886);
                         background: rgb(238, 215, 255);
-
+    
                     }
                     .contact-input-send{
                         color: white;
@@ -539,23 +533,78 @@ hr{
                         border-color: rgb(230, 195, 255);
                         border-radius: 10px;
                         box-shadow: 0px 0px 10px rgba(43, 2, 74, 0.79);
-
+    
                     }
                     .contact-input-send:hover{
                         background-color:rgb(106, 46, 171);
                         border-color: rgb(200, 165, 224);
-
+    
                     }
                     .form-btn{
                         /* background: none; */
                     }
-                        .form-btn button{
-                            background-color: rgba(255, 255, 255, 0.271);
-                            width: 60%;
-                            height: 30px;
-                            color: white;
-                        }
-                        
+                    .form-btn button{
+                        background-color: rgba(255, 255, 255, 0.271);
+                        width: 60%;
+                        height: 30px;
+                        color: white;
+                        border: 2px solid rgb(179, 179, 179);
+                    }.form-btn button:hover{
+                        background-color: rgba(179, 179, 179, 0.271);
+
+                    }
+    
+    @media (min-width:768px) {
+        .intro-div{
+            height: 43vw;
+        }
+        .contacting-div{
+            display: flex;
+        }
+        .other-contacts-container{
+            width: 50vw;
+            /* background-color: black; */
+        }
+            .other-contacts{
+                width: 90%;
+            }
+        .contact-form-container{
+            margin: 3%;
+            /* width: 50vw; */
+            background-color: white;
+        }
+        
+    }
+    @media (max-width:770px) {
+        .intro-div{
+            height: 75vw;
+        }
+        .space-above-contacting-div{
+            height: 0px;
+            width: 100%;
+        }
+        .contacting-div{
+            display: flex;
+        }
+        .other-contacts-container{
+            width: 100vw;
+            /* background-color: black; */
+        }
+            .other-contacts{
+                width: 90%;
+            }
+        .contact-form-container{
+            display: none;
+            width: 100vw;
+            background-color: white;
+        }
+    }
+    @media (max-width:950px) {
+        .ptrt{
+            display: none;
+        }
+    }
+    
 
 /* ^^------------------------------------ Body */
 
@@ -639,7 +688,14 @@ hr{
     right: 0px;
     background-color: #333;
     z-index: 0;
-    width: 200px;
+    width: 150px;
+    background: rgba(255, 255, 255, 0.08);
+
+    border-radius: 16px 0px 16px 16px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
 
 }
 .type a{
