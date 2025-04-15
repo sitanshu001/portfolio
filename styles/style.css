@@ -166,9 +166,10 @@ hr{
             text-align:justify;
             padding: 5px ;
             bottom: 10px;
+            bottom: 30%
         }
         .ptrt img{
-            
+            border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
             -webkit-user-drag: none;
             user-select: none;
             pointer-events: none;
