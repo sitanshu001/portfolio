@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Apply incremental animation delay for each nonhighlighted word
     nonhighlightedWords.forEach((p, i) => {
-        p.style.animationDelay = `${i * 0.4}s`; // Apply delay for each span (e.g., 0s, 0.5s, 1s, ...)
+        p.style.animationDelay = `${i * 1}s`; // Apply delay for each span (e.g., 0s, 0.5s, 1s, ...)
     });
 });
 // Wait for the DOM to be fully loaded
@@ -102,78 +102,23 @@ function crrtgg() {
     }
 }
 var eee = document.getElementById("more-catogory-lists")
+// border: 1px solid rgba(255, 255, 255, 0.19);
+var more_cnt_ner=document.getElementById("menu-content")
 eee.style.display = "none";
+more_cnt_ner.style.visibility="hidden"
+more_cnt_ner.style.display="none"
 function toggleMenu() {
     // document.getElementById("more-catogory").classList.toggle("active");
     if (eee.style.display ==="none"){
         eee.style.display ="block";
+        more_cnt_ner.style.display = "block"
     }
     else{
         eee.style.display = "none";
+        more_cnt_ner.style.display = "none"
     }
+
     // if (document.getElementById("more-catogory-lists").style.display === "block"){
     //     document.getElementById("more-catogory-lists").style.display = "none";
     // }
 }
-    // } else {
-        // bdy.style.display = "block";
-        // e.style.display = "none";
-        // s.style.display = "none";
-        // p.style.display = "none";
-        // c.style.display = "none";
-    // }
-    // if (s.style.display === "none") {
-    //     // bdy.style.display = "block";s
-    //     s.style.display = "block";
-    //     e.style.display = "none"
-    //     c.style.display = "none"
-    //     p.style.display = "none"
-    // }
-  
-//   function myFunction() {
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-// function prflfldToggle() {
-
-    // if (e.style.display === "none") {
-    //   e.style.display = "block";
-    // }
-    // if(e.style.display === "block"){
-    //     s.style.display = "none";
-    //     p.style.display = "none";
-    //     c.style.display = "none";
-    // }
-    // if (s.style.display === "none") {
-    //     s.style.display = "block";
-    // }
-    // if(s.style.display === "block"){
-    //     e.style.display = "none";
-    //     p.style.display = "none";
-    //     c.style.display = "none";
-    // }
-
-    // else if(s.style.display === "none"){
-    //   e.style.display = "none";
-    //   s.style.display = "block";
-    //   p.style.display = "none";
-    //   c.style.display = "none";
-
-    // }
-    // else if (c.style.display === "none") {
-    //     c.style.display = "block";
-    //     s.style.display = "none";
-    //     p.style.display = "none";
-    //     e.style.display = "none";
-    // }
-    // else if (p.style.display === "none") {
-    //     p.style.display = "block";
-    //     s.style.display = "none";
-    //     e.style.display = "none";
-    //     c.style.display = "none";
-    // }
-    
