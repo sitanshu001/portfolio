@@ -73,12 +73,9 @@ hr{
             }
         /* ^^^------------------------------ logo */
         .socials-container{
-            /* gap: 10px; */
-            /* background-color: #fff; */
             display: flex;
             justify-content: center;
             width: 170px;
-            /* background-color: black;
             
             */
 
@@ -114,8 +111,7 @@ hr{
             width: 70%;
             max-width: 400px;
             height: max-content;
-            /* margin: 0.01px;
-            padding: 0.01px; */
+
         }
             .about-para{
                 align-items: center;
@@ -130,7 +126,6 @@ hr{
             .about-para:hover
             .text{
                 opacity: 0; /* Initially hidden */
-                /* font-size: 1em; */
                 animation: fadeIn 2s forwards; /*Animation for fade in*/
                 
             }
@@ -143,12 +138,7 @@ hr{
                 to { opacity: 1; transform: translateY(0); }
             }
             .para:hover .text{
-                /* Initially hidden */
-                /* font-size: 1em; */
-                /* opacity: 1; */
-                /* color: aqua; */
-                /* animation: fadOut 2s forwards; */
-                /* animation: fadeIn 2s forwards; Animation for fade in */
+
             }
             /* @keyframes fadeOut {
                 from {opacity: 1; transform: translateY(0);}
@@ -271,11 +261,9 @@ hr{
         background-image: url("images/dvpbg.webp");
     }
     .contacting-div{
-        /* margin: 2%; */
         background-color: rgb(164, 174, 164);
         background-color: rgb(124, 134, 124);
         display:flex;
-        /* justify-content: ; */
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
@@ -300,7 +288,6 @@ hr{
             }
             .other-contacts-head{
                 margin-top: 0%;
-                /* position:absolute; */
             }
         .space-above-contacting-div{
             height: 30px;
@@ -326,7 +313,6 @@ hr{
             max-width: 80%;
             margin-right: 5%;
             background-color: #ffffff12;
-/*             background-image:linear-gradient(rgba(61, 222, 25, 0),rgba(255, 255, 255, 0.179)); */
             background-image:linear-gradient(rgba(60, 0, 110, 0.311),rgba(157, 120, 172, 0.525));
     
             box-shadow: 0px 0px 15px blueviolet;
@@ -359,9 +345,6 @@ hr{
                 width:max-content;
             }
             .actual-form{
-                /* padding:0px; */
-                /* padding-right: 45px;
-                padding-left: 45px; */
                 padding-top: 10px;
                 
                 justify-self: center;
