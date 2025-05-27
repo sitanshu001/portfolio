@@ -18,6 +18,15 @@ body{
     height: 100%;
     box-sizing: border-box;
 }
+.notification{
+    width: 100%;
+    position: fixed;
+    background-color: yellow;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 hr{
     width: 150px;
 }
