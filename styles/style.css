@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+    z-index: 1;
 }
 hr{
     width: 150px;
