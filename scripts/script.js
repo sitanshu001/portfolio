@@ -23,10 +23,12 @@ var s = document.getElementById("spf");
 var p = document.getElementById("prj");
 var c = document.getElementById("crr");
 var bdy = document.getElementById("bdy");
+var sk = document.getElementById("skls")
 e.style.display = "none"
 s.style.display = "none"
 c.style.display = "none"
 p.style.display = "block"
+sk.style.display = "none"
 // function changeColor(color){
 //     p.style.background=color;
 // }
@@ -34,6 +36,9 @@ function edutgg() {
     s.style.display = "none"
     c.style.display = "none"
     p.style.display = "none"
+    // e.style.display = "none"
+    sk.style.display = "none"
+
     if (e.style.display === "none") {
         // bdy.style.display = "block";s
         e.style.display = "block";
@@ -47,12 +52,26 @@ function edutgg() {
 
     }
 }
+function skillsgg() {
+    e.style.display = "none"
+    s.style.display = "none"
+    c.style.display = "none"
+    p.style.display = "none"
+    if (sk.style.display ==="none"){
+        sk.style.display ="block"
+    }
+    else if (sk.style.display === "block"){
+        sk.style.display = "none";
 
+    }
+    else{
+    }
+}
 function spftgg() {
     e.style.display = "none"
     c.style.display = "none"
     p.style.display = "none"
-
+    sk.style.display = "none"
     if(s.style.display === "none"){
         s.style.display = "block";
         
@@ -69,6 +88,7 @@ function prjtgg() {
     e.style.display = "none"
     c.style.display = "none"
     s.style.display = "none"
+    sk.style.display = "none"
 
     if(p.style.display === "none"){
         p.style.display = "block";
@@ -88,6 +108,7 @@ function crrtgg() {
     e.style.display = "none"
     s.style.display = "none"
     p.style.display = "none"
+    sk.style.display = "none"
 
     if(c.style.display === "none"){
         c.style.display = "block";
@@ -102,13 +123,12 @@ function crrtgg() {
     }
 }
 var eee = document.getElementById("more-catogory-lists")
-// border: 1px solid rgba(255, 255, 255, 0.19);
 var more_cnt_ner=document.getElementById("menu-content")
 eee.style.display = "none";
 more_cnt_ner.style.visibility="hidden"
 more_cnt_ner.style.display="none"
 function toggleMenu() {
-    // document.getElementById("more-catogory").classList.toggle("active");
+    
     if (eee.style.display ==="none"){
         eee.style.display ="block";
         more_cnt_ner.style.display = "block"
@@ -117,8 +137,4 @@ function toggleMenu() {
         eee.style.display = "none";
         more_cnt_ner.style.display = "none"
     }
-
-    // if (document.getElementById("more-catogory-lists").style.display === "block"){
-    //     document.getElementById("more-catogory-lists").style.display = "none";
-    // }
 }
