@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="styles/styleProfileFields1.css"> -->
     <link rel="stylesheet" href="styles/styleProfileFields2.css">
     <link class="logo" rel="shortcut icon" href="images\sitelogo2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="scripts/script.js"></script>
     <title>Sitanshu</title>
@@ -17,12 +19,12 @@
     <div class="main-div">
         <div class="top">
             <div class="my-company">
-                <a href=""><img src="images\sitelogo2.png" alt="Logo"></a>
+                <a href=""><img src="images\sitelogo2.png" alt="Logo" title="Sitanshu"></a>
             </div>
             <div class="socials-container">
                 <div class="socials flx-space-between">
-                    <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
                     <a href="https://github.com/sitanshu001"><img src="images\github-icon-512x497-oppthre2.webp" alt="GitHub"></a>
+                    <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
                     <a href="mailto:sitanshu.2k2d@gmail.com"><img src="images\gmail-white-icon.png" alt="eMail"></a>
                 </div>
             </div>
@@ -32,6 +34,7 @@
                 <div class="para">
                     <article class="about-para">
                         <div class="gg">
+
                             <span class="big highlight text">
                                 Hi,
                             </span> 
@@ -49,8 +52,9 @@
                             </span>
                             <span class="nonhighlight text">more from </span>
                             <span class="big highlight text">
-                                my profile!
+                                my Profile!
                             </span>
+                            
                         </div>
                     </article>
                 </div>
@@ -58,17 +62,15 @@
                     <img src="images\profilepic-aig.png" alt="pfp image">
                     <div class="name">Sitanshu</div>
                 </div>
-                <!-- <br> -->
             </div>
         </div>
+
         <div class="catagory-div-container">
-            <!-- <br> -->
             <div class="catagory-div" id="catagory-div">
                 <ul>
+
                     <li class="cat" id="cat" onclick="spftgg()"><p>Expertize</p></li>
-                    <!-- <div class="cat-sep"></div> -->
                     <li class="cat" id="cat" onclick="prjtgg()"><p>Projects</p></li>
-                    <!-- <div class="cat-sep"></div> -->
                     <li class="cat" id="cat" onclick="crrtgg()"><p>Career</p></li>
                 </ul>
             </div>
@@ -79,13 +81,16 @@
                      <div class="menu-content">
                         <ul class="more-catogory-lists" id="more-catogory-lists">
                             <div class="close" style="display: flex; height: 50px;">
+                                <!-- <p>EXTRAS</p> -->
                                 <img height="40px" src="https://img.icons8.com/ios-filled/24/inconsistency.png" alt="">
                                 <div style="width: 20px;"></div>
                                 <button class="close-btn menu-btn" onclick="toggleMenu()">✖</button>
                             </div>
-                            <li class="catm" onclick="edutgg()"><a href="#catagory-div">Education Qualifications</a></li>
-                            <li class="catm" onclick="moregg()"><a href="#catagory-div" title="n.a.">Skills</a></li>
-                            <li class="catm last_more" onclick="moregg()"><a href="#catagory-div" title="n.a.">More</a></li>
+
+                            <li class="catm" onclick="edutgg()">Education Qualifications</li>
+                            <li class="catm" onclick="skillsgg()">Skills</li>
+                            <li class="catm last_more" onclick="moregg()">More</li>
+
                         </ul>
                      </div>
                 </div>
@@ -103,14 +108,12 @@
                             <hr>
                                 <div class="education-type-contents">
                                     <div class="etype1">
-                                        
                                         <div class="etype1-heading">B.Tech. CSE'25</div>
                                         <div>
                                             KIT
                                         </div>
                                     </div>
-                                    <br>
-                                    
+
                                 </div>
                             </div>
                             <br>
@@ -131,6 +134,7 @@
                                 </div>
                             </div>
                             <br>
+    
                         </div>
                     </div>
 
@@ -139,8 +143,10 @@
                     <div class="specifications-card cards cards-right" id="specifications-card"><div class="content-headings">EXPERTIZE</div>
                         <div class="specifications-article article">
                             <div class="specifications-type type"><div class="heading-specifications-type">Data Scientist</div>
+
                             </div><br>
                             <div class="heading-specifications-type type"><div class="">Web Developer</div>
+
                             </div>
                         </div>
                     </div>
@@ -168,105 +174,129 @@
                 <div class="info-container" id="prj">
                     <div class="project-card cards cards-right" id="project-card"><div class="content-headings">PROJECTS</div>
                         <div class="project-article article">
-                            
+
                             <div class="project-type type"><div class="heading-project-type"><a href="https://github.com/sitanshu001/my-mini-projects">Python Codings</a></div>
                             </div><br>
                             <div class="project-type type"><div class="heading-project-type"><a href="https://github.com/sitanshu001/data_science_projects">Data Analysis</a></div>
                             </div><br>
-                            <div class="project-type type"><div class="heading-project-type"><a href="https://github.com/sitanshu001">Using AI Models</a></div>
+                            <div class="project-type type"><div class="heading-project-type"><a href="https://github.com/sitanshu001">Applications using AI Models</a></div>
                             </div><br>
                             <div class="project-type type"><div class="heading-project-type"><a href="">Web Devs</a></div>
                             </div><br>
                             <div class="project-type type"><div class="heading-project-type"><a href="https://github.com/sitanshu001">Other Projects</a></div>
-                                
+
+                            </div><br>
+                            <div class="project-type type"><div class="heading-project-type"><a href="">Applications</a></div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-container" id="skls">
+                    <div class="specifications-card cards cards-right" id="specifications-card"><div class="content-headings">SKILLS</div>
+                        <div class="specifications-article article">
+                            <div class="specifications-type type"><div class="heading-specifications-type">Data Scientist</div>
+
+                            </div><br>
+                            <div class="heading-specifications-type type"><div class="">Web Developer</div>
+
+                            </div><br>
+                            <div class="specifications-type type"><div class="heading-specifications-type">Python</div>
+
+                            </div><br>
+                            <div class="specifications-type type"><div class="heading-specifications-type">Data Scientist</div>
+
+                            </div><br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="space-above-contact-form-div">
-        </div>
-        <!-- <br> -->
-        <div class="contacting-div">
-            <div class="other-contacts-container">
+        
+        <div class="contacting-div-green designdivl"></div>
+        <div class="contacting-div-orange designdivr"></div>
+        <div class="contacting-div connects-content">
+            <!-- =============================================================== -->
+
+            <div class="other-contacts-container mainl">
                 <div class="other-contacts">
-                    
                     <div style="display: flex;">
                         <div style="width: 10px;"></div>
                         <div class="other-contacts-head">Socials</div>
                     </div>
                     <div style="height: 10px;"></div>
                     <div class="socials-container">
-                        <div style="width: 30px;"></div>
                         <div class="socials flx-space-between">
-                            <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
                             <a href="https://github.com/sitanshu001"><img src="images\github-icon-512x497-oppthre2.webp" alt="GitHub"></a>
+                            <a href="https://in.linkedin.com/in/sitanshu-mandia"><img src="images\Linkedin-icon-white-png.png" alt="LinkedIn"></a>
                             <a href="mailto:sitanshu.2k2d@gmail.com"><img src="images\gmail-white-icon.png" alt="eMail"></a>
                         </div>
     
                     </div>
                 </div>
-                <!-- <div class="blank-div" style="height: 30px;"></div> -->
             </div>
-            <div class="contact-form-container">
-                <div class="contact-head">
-                    <span class="text-size2rem">Hey,</span>
-                    <div class="message-head">you can drop me a message*</div>
-                    <div style="height: 3px;"></div>
-                    <div style="font-size: 0.7em;">(*this portion is not active yet but you can mail me using my mail address)</div>
-                </div>
-                <!-- <br> -->
-                 <div class="actual-form-container">
-<!--                     <form class="contact-form-tag" action="sendmail.php" method="POST"> -->
-                    <form action="https://formsubmit.co/sitanshu0012@gmail.com" method="POST">
-                        <div class="actual-form">
-                            <div class="message-data-inputs-div">
-                                <label class="contact-label" for="fname">Name</label><br>
-                                <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
-                            </div>
-                            <br>
-                            <div class="message-data-inputs-div">
-                                <label for="email">Mail*</label><br>
-                                <input class="txtarea contact-inputs" type="email" id="email" name="email" autocomplete="off" placeholder="example@mail.com">
-                            </div>
-                            <br>
-                            <div class="message-data-inputs-div">
-                                <label for="msg">Message</label><br>
-                                <textarea class="txtarea contact-inputs" id="msg" name="msg" placeholder="leave a message here"></textarea>
-                            </div>
-                            <div style="height: 7px;"></div>
+            <!-- =================================================================== -->
+            <div class="mailer mainr">
+                <div class="contact-form-container">
+                    <div class="contact-head">
+                        <span class="text-size2rem">Hey,</span>
+                        <div class="message-head">You can drop me a message</div>
+                        <div style="height: 3px;"></div>
+                    </div>
+                    <!-- <br> -->
+                    <div class="actual-form-container">
+                        <form action="https://formsubmit.co/sitanshu0012@gmail.com" method="POST">
+                            <div class="actual-form">
+                                <div class="message-data-inputs-div">
+                                    <label class="contact-label" for="fname">Name</label><br>
+                                    <input class="contact-inputs" type="text" id="fname" name="fname" autocomplete="off" placeholder="your name">
+                                </div>
+                                <br>
+                                <div class="message-data-inputs-div">
+                                    <label for="email">Mail*</label><br>
+                                    <input class="txtarea contact-inputs" type="email" id="email" name="email" autocomplete="off" placeholder="example@mail.com">
+                                </div>
+                                <br>
+                                <div class="message-data-inputs-div">
+                                    <label for="msg">Message</label><br>
+                                    <textarea class="txtarea contact-inputs" id="msg" name="msg" placeholder="leave a message here"></textarea>
+                                </div>
+                                <div style="height: 7px;"></div>
 
-                            <div class="form-btn" >
-                                <button type="submit">Send</button>
+                                <div class="form-btn" >
+                                    <button type="submit">Send</button>
+                                </div>
+                                
                             </div>
                             
-                        </div>
-                        
-                    </form>
-                 </div>
-                <!-- <div>
-                </div> -->
+                        </form>
+                    </div>
+                    <!-- <div>
+                    </div> -->
+
+                </div>
             </div>
+            <!-- ================================================================== -->
+
         </div>
-        
     </div>
 </body>
 <br>
 <footer class="footer">
     <div class="footer-container">
-        <div style="height: 7px;"></div>
+        <div class="height-7px"></div>
+        <div class="ptfo-acc">
+            <li><a href="www.linkedin.com/in/sitanshu-mandia">linkedin</a></li>
+        </div>
         <div>
-            site developer: Sitanshu(Self)
         </div>
         <div>
             [Site Status: Work in Progress(for some patch updates)]
         </div>
-        <div style="height: 7px;">
+        <div class="height-7px">
             <!-- Kindly don't use my code. Contents are Original. Do get some inspirations though and make your own codes!! -->
         </div>
         <div class="cpr"><a href="">© 2025 Sitanshu</a></div>
-        <div style="height: 5px;"></div>
+        <div class="height-5px"></div>
 
     </div>
 </footer>
