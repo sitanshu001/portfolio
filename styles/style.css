@@ -827,6 +827,7 @@ hr{
 @media (max-width:700px) {
     .designdivr{
         width: 200%;
+        overflow-x: hidden;
     }
     .designdivl{
         display: none;
