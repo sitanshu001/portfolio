@@ -577,6 +577,12 @@ hr{
             width: 100vw;
             background-color: white;
         }
+        body{
+            overflow-x: hidden;
+        }
+        .footer{
+            overflow-x: hidden;
+        }
     }
     @media (max-width:950px) {
         .ptrt{
