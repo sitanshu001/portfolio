@@ -831,6 +831,7 @@ hr{
         max-width: 100vw;
         transform: skewX(0deg);
         overflow-x: hidden;
+/*         left: -40.5%; */
     }
     .designdivl{
         display: none;
