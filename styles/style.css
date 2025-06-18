@@ -826,12 +826,12 @@ hr{
 }
 @media (max-width:700px) {
     .designdivr{
-        width: 200%;
+        width: 100%;
         overflow-x: hidden;
     }
     .designdivl{
         display: none;
-        overflow-x:hidden;
+        overflow-x: hidden;
     }
     .main-div{
         overflow-x: hidden;
