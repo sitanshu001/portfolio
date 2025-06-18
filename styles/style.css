@@ -394,7 +394,7 @@ hr{
         }
         @media (max-width: 768px) {
             .contacting-div-purple{
-                width: 100vw;
+                width: 100%;
                 height: 150%;
             }
             /* .contact-form-container{
@@ -821,12 +821,14 @@ hr{
         display: block;
     }
     .designdivr{
+        
     }
     
 }
 @media (max-width:700px) {
     .designdivr{
         width: 100%;
+        transform: skewX(0deg);
         overflow-x: hidden;
     }
     .designdivl{
