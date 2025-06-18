@@ -393,8 +393,8 @@ hr{
             width: 100%
         }
         @media (max-width: 768px) {
-            .contacting-div-green{
-                width: 100%;
+            .contacting-div-purple{
+                width: 100vw;
                 height: 150%;
             }
             /* .contact-form-container{
@@ -831,6 +831,10 @@ hr{
     }
     .designdivl{
         display: none;
+        overflow-x:hidden;
+    }
+    .main-div{
+        overflow-x: hidden;
     }
 }
 
