@@ -828,17 +828,17 @@ hr{
 @media (max-width:700px) {
     .designdivr{
         transform: skewX(0deg);
+        height: 200px;
         width: 100%;
         overflow-x: hidden;
-        /* left: -40.5%; */
         left: 0%;
     }
     .designdivl{
+        height: 200px;
         display: none;
-        overflow-x: hidden;
     }
-    .main-div{
-        overflow-x: hidden;
+    .contacting-div{
+        height: 180px;
     }
 }
 
